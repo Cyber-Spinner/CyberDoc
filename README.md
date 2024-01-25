@@ -31,7 +31,7 @@
 
 - Game Engine; Unity 2022 LTS version basica.
 - IDE: VS Code 1.85.2
-- Control de Versiones; GIT 2.43.0
+- Control de Versiones; GIT 2.43.0 - Repositorio Monolítico
 - Repositado: GitHub - https://github.com/Cyber-Spinner
 - IAC: Terraform
 - IAC: Kubernetes/Docker

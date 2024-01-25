@@ -1,48 +1,46 @@
-Introducción para Otras Instancias de IA
+CyberSpinner: La Batalla Cibernética - Información de Proyecto para Sucesivas Instancias de IA
+Introducción
+Este documento está diseñado para proporcionar una visión general y guía a sucesivas instancias de IA que asumirán el apoyo en el desarrollo del juego "CyberSpinner: La Batalla Cibernética". Este juego, un proyecto personal enfocado en ser un ejemplo práctico en un CV, destaca competencias en desarrollo de juegos, infraestructura en la nube, y prácticas de DevOps.
 
-Hola, Este primer parrafo está diseñado para ser utilizado por sucesivas instancias de IA (es decir, para tu uso) que podrían asumir el apoyo en este proyecto. El proyecto consiste en el desarrollo de un juego multijugador en 2D de naves utilizando Unity, integrado con Amazon GameLift para el backend y gestionando la infraestructura en AWS a través de Terraform. La tarea principal de la IA es proporcionar asistencia en la planificación, ofrecer orientación técnica y resolver consultas relacionadas con el desarrollo del juego, la infraestructura de DevOps y la implementación en la nube. Este proyecto está orientado a ser un ejemplo práctico en un CV, destacando competencias en desarrollo de juegos, infraestructura en la nube y prácticas de DevOps.
+Descripción General del Proyecto
+"CyberSpinner: La Batalla Cibernética" es un juego de estrategia por turnos en 3D. Cada jugador controla dos personajes, representando diferentes tipos de servidores o malware en un contexto de hacking y ciberseguridad. Las acciones se determinan mediante rodillos al estilo tragaperras, con mecánicas como aumento de energía, mejora de personajes, y creación de escudos.
 
-Resumen del Proyecto de Juego Multijugador con Infraestructura DevOps (Enfoque con Terraform y AWS)
-
-Objetivo General del Proyecto:
-
-Desarrollar un juego de naves en 2D multijugador básico utilizando Unity, integrado con Amazon GameLift para el backend y gestionando la infraestructura en AWS a través de Terraform.
-Progreso del Proyecto:
-
-Desarrollo del Juego con Unity:
+Tecnologías y Herramientas
+Desarrollo del Juego en 3D:
 
 Tecnología: Unity.
-Enfoque: Crear un juego de naves en 2D con controles básicos y mecánicas de juego.
-Estado actual: [Por definir]
-Próximos pasos: Diseñar y programar las mecánicas básicas del juego.
+Enfoque: Transición del juego a un entorno 3D con controles y mecánicas de juego adecuados.
+Estado Actual y Próximos Pasos: [Por definir] Diseño y programación de mecánicas básicas en 3D.
 Backend y Multijugador:
 
 Tecnología: Amazon GameLift.
 Enfoque: Utilizar GameLift para manejar el matchmaking y la lógica del servidor multijugador.
-Estado actual: [Por definir]
-Próximos pasos: Integrar GameLift en el proyecto de Unity.
+Estado Actual y Próximos Pasos: [Por definir] Integrar GameLift en el proyecto de Unity.
 Autenticación de Usuarios:
 
 Opciones: Firebase Authentication o PlayFab.
-Estado actual: [Por definir]
-Próximos pasos: Decidir e implementar el sistema de autenticación.
+Estado Actual y Próximos Pasos: [Por definir] Decisión e implementación del sistema de autenticación.
 Infraestructura en la Nube y DevOps (Terraform y AWS):
 
-Tecnologías: AWS para alojamiento y servicios; Terraform para la infraestructura como código.
+Tecnologías: AWS para alojamiento y servicios; Terraform para infraestructura como código.
 Recursos AWS a Configurar: EC2, GameLift, RDS/DynamoDB, S3, IAM, VPC, ELB, CloudWatch, (opcional) Route 53.
 Enfoque: Utilizar Terraform para crear y gestionar la infraestructura necesaria en AWS, conectándola con GameLift y otros servicios necesarios.
-Estado actual: [Por definir]
-Próximos pasos: Desarrollar scripts de Terraform para configurar la infraestructura de AWS.
-Nueva Descripción del Juego:
+Estado Actual y Próximos Pasos: [Por definir] Desarrollo de scripts de Terraform para configurar la infraestructura de AWS.
+Mecánicas de Juego
+Rodillos de la Fortuna: Girar rodillos al inicio de cada turno para determinar acciones.
+Estaciones de Ataque: Control de servidores/malware con habilidades únicas.
+Combate en el Ciberespacio: Enfrentamientos estratégicos basados en habilidades y decisiones tácticas.
+Firewall de Defensa: Uso de recursos para defenderse de ataques.
+Objetivo del Juego: Derrotar al oponente antes de que él lo haga.
+Arte y Estilo
+Arte 3D Low-Poly: Estilo cibernético y futurista, colores saturados y transparencias.
+Cámaras: Vista Cenital Fija.
+Música y Sonido: Música electrónica/experimental/1990s, efectos de sonido digital Lofi/Modems.
+Historia y Ambientación
+El juego se desarrolla en un mundo virtual donde cada jugador asume el papel de un hacker y compite contra otro.
 
-El juego se ha rediseñado como un juego de estrategia por turnos en el que cada jugador controla dos personajes representados como tipos de servidores o malware en el contexto de hacking y ciberseguridad. Los jugadores giran unos rodillos tipo tragaperras para determinar las acciones disponibles, como aumentar la energía, mejorar los personajes o crear escudos. Los personajes atacan cuando su barra de energía está llena.
-
-Nombre del Juego:
-
-"CyberSpinner: La Batalla Cibernética"
-Desafíos y Preguntas Actuales:
-
+Desafíos y Preguntas Actuales
 [Cualquier desafío específico o pregunta que tengas en este momento]
-Recursos y Referencias:
 
+Recursos y Referencias
 [Enlaces a recursos, documentación, tutoriales, etc., que estés utilizando]

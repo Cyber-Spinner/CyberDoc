@@ -1,7 +1,7 @@
 # CyberSpinner
 
-[![Plataformas](https://img.shields.io/badge/Plataformas-PC%2C%20dispositivos%20m%C3%B3viles%20(opcional)-blue)](https://example.com)
-[![Género](https://img.shields.io/badge/G%C3%A9nero-Estrategia%20por%20turnos%2C%20Hacking%2C%20Ciberseguridad-green)](https://example.com)
+[![Plataformas](https://img.shields.io/badge/Plataformas-PC)](https://todo.cs.dev.spinner.com)
+[![Género](https://img.shields.io/badge/G%C3%A9nero-Estrategia%20por%20turnos%2C%20Hacking%2C%20Ciberseguridad-green)](https://todo.cs.dev.spinner.com)
 
 ## Descripción
 

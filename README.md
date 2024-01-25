@@ -29,7 +29,7 @@
 ## 💻 Tecnologías Utilizadas
 
 
-- Game Engine; Unity 2022 LTS version basica.
+- Game Engine; Unity 2022.3.18f1 LTS - Sub basica.
 - IDE: VS Code 1.85.2
 - Control de Versiones; GIT 2.43.0 - Repositorio Monolítico
 - Repositado: GitHub - https://github.com/Cyber-Spinner

@@ -79,6 +79,7 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 - **Evolución**:
   - Nivel 1 a 2: Energía Moderada
   - Nivel 2 a 3: Energía Alta
+
   Palabras clave: rapidez, barato, decision, afilado, basura, spam, coste bajo
 
   Como es;
@@ -90,6 +91,7 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 - **Evolución**:
   - Nivel 1 a 2: Energía Alta
   - Nivel 2 a 3: Energía Muy Alta
+
    Palabras clave: Polimorfismo, Evolucion, Conversion, Transmutacion, Actualizacion, alta tecnologia
 
    Como es;
@@ -101,6 +103,7 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 - **Evolución**:
   - Nivel 1 a 2: Energía Alta
   - Nivel 2 a 3: Energía Extremadamente Alta
+
   Palabras clave: Certero, definitivo, alto coste, rendimiento, made for last, recio, fiable
 
   Como es;
@@ -112,6 +115,7 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 - **Evolución**:
   - Nivel 1 a 2: Energía Baja
   - Nivel 2 a 3: Energía Moderada
+
 Palabras clave: Bajo coste, constructor, codigo, reparacion, analisis, busqueda, fix, disponible, chequeo, scanner
 
 Como es;
@@ -123,6 +127,7 @@ Un kit de herramientas que permite extraer informacion del enemigo para analizar
 - **Evolución**:
   - Nivel 1 a 2: Energía Variable
   - Nivel 2 a 3: Energía Alta
+
 Palabras Clave: Indetectable, util, certero, bajo coste, infeccioso
 
 Como es;
@@ -134,6 +139,7 @@ Un malware espia que siempre llega a atacar al enemigo debido a su antena, es ba
 - **Evolución**:
   - Nivel 1 a 2: Energía Baja
   - Nivel 2 a 3: Energía Moderada
+
 Palabras Clave: Apariencia, curacion, extorsion, encriptacion
 
 Como es;
@@ -233,15 +239,14 @@ CyberSpinner se podría definir como una implementación online de las mecánica
 ![girarrodillos](./img/GDD/girarrodillos.jpg)
 
 1 - Es el número de tiradas que tienes en la ronda actual. 
+
 2 - Son los símbolos del rodillo.   
+
 3 - Los héroes y sus estadísticas.   
+
 4 - Los “activadores” para que los héroes entren en acción.
 
-Fuente: Eliteguias
-
 https://www.eliteguias.com/guias/s/sos/sea-of-stars_girarrodillos.php
-
-+
 
 https://store.steampowered.com/app/1244090/Sea_of_Stars/
 
@@ -254,13 +259,21 @@ https://sabotagestudio.com
 
 ## Conceptos Básicos en CyberSpinner
 
-Juego 1v1 en Cyberespacio: "CyberSpinner" es un juego uno contra uno donde los jugadores asumen el rol de hackers en el ciberespacio. Utilizan una interfaz de "Código Aleatorio" similar a una tragamonedas para combatir.
+Juego 1v1 en Cyberespacio: "CyberSpinner" es un juego uno contra uno donde los jugadores asumen el rol de hackers en el ciberespacio.
 
-Inicio del Juego y Selección de "Malware": Al comenzar, cada jugador elige dos "Malware" o programas con habilidades únicas. Estas elecciones se revelan al inicio de la partida.
+Utilizan una interfaz de "Código Aleatorio" similar a una tragamonedas para combatir.
 
-Mecánica del Código Aleatorio: Similar a la rueda de tragamonedas en "Wheels", los jugadores giran un código formado por símbolos para activar acciones. El objetivo es agotar los puntos de vida del oponente. Cada servidor reacciona de manera diferente según los símbolos obtenidos.
+Inicio del Juego y Selección de "Malware": Al comenzar, cada jugador elige dos "Malware" o programas con habilidades únicas.
 
-Energía y Acciones de "Malware": Los "Malware" actúan una vez acumulen suficiente energía, que se obtiene al hacer coincidir ciertos símbolos en el Código Aleatorio. Las acciones pueden incluir ataques, defensas o habilidades especiales.
+Estas elecciones se revelan al inicio de la partida.
+
+Mecánica del Código Aleatorio: Similar a la rueda de tragamonedas en "Wheels", los jugadores giran un código formado por símbolos para activar acciones. 
+
+El objetivo es agotar los puntos de vida del oponente. Cada servidor reacciona de manera diferente según los símbolos obtenidos.
+
+Energía y Acciones de "Malware": Los "Malware" actúan una vez acumulen suficiente energía, que se obtiene al hacer coincidir ciertos símbolos en el Código Aleatorio. 
+
+Las acciones pueden incluir ataques, defensas o habilidades especiales.
 
 Tácticas y Estrategias: Los jugadores deben desarrollar estrategias basadas en las habilidades de sus "Malware" y los resultados de sus códigos aleatorios, adaptándose a las jugadas del oponente y a los resultados impredecibles de la interfaz de código.
 

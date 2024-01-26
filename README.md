@@ -50,7 +50,7 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 - El codigo aleatorio se compone de 5 slots para simbolos.
 - El jugador que empieza primero se define de forma aleatoria.
 - Los jugadores giran el Codigo Aleatorio al comienzo de su turno.
-- Los resultados de los codigos aleatorios determinan las acciones disponibles, como aumentar la energía, mejorar personajes o crear escudos.
+- Los resultados de los codigos aleatorios determinan las acciones disponibles, como <br>aumentar la energía</br>, mejorar personajes o crear escudos.
 - Cada jugador dispone de 3 tiradas por turno, pudiendo bloquear hasta 3 casillas de codigo que se mantendran fijas en la siguiente tirada.
 - Una vez agotadas las 3 tiradas, el resultado del codigo se aplicara a la estacion del jugador y se realizara la accion correspondiente.
 

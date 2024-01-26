@@ -73,12 +73,16 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 
 - En esta sección se definen los tipos de malware seleccionables por el jugador.
 
-   ### 🕵️‍♂️ Trojan (Guerrero):
+   ### 🕵️‍♂️ Adware (Guerrero):
 - **Energía Necesaria para Atacar**: Baja
 - **Daño**: Medio
 - **Evolución**:
   - Nivel 1 a 2: Energía Moderada
   - Nivel 2 a 3: Energía Alta
+  Palabras clave: rapidez, barato, decision, afilado, basura, spam, coste bajo
+
+  Como es;
+  Un Adware que ataca rapido y de forma standard llenando la estacion enemiga de spam y publicidad, envia e-mails envenenados.
 
 ### 🧙‍♂️ Polymorphic Virus (Mago):
 - **Energía Necesaria para Atacar**: Media
@@ -86,13 +90,21 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 - **Evolución**:
   - Nivel 1 a 2: Energía Alta
   - Nivel 2 a 3: Energía Muy Alta
+   Palabras clave: Polimorfismo, Evolucion, Conversion, Transmutacion, Actualizacion, alta tecnologia
 
-### 🏹 Ransomware (Arquero):
+   Como es;
+   Un virus que muta y ataca dos veces por turno y de dos formas distintas.
+
+### 🏹 Trojan (Arquero):
 - **Energía Necesaria para Atacar**: Alta
 - **Daño**: Alta
 - **Evolución**:
   - Nivel 1 a 2: Energía Alta
   - Nivel 2 a 3: Energía Extremadamente Alta
+  Palabras clave: Certero, definitivo, alto coste, rendimiento, made for last, recio, fiable
+
+  Como es;
+  Un virus trojano que suele llegar siempre al objetivo y causar mucho daño a un alto coste, elimina ficheros del sistema enemigo.
 
 ### 🛠️ Rootkit (Ingeniero):
 - **Energía Necesaria para Atacar**: Media
@@ -100,6 +112,10 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 - **Evolución**:
   - Nivel 1 a 2: Energía Baja
   - Nivel 2 a 3: Energía Moderada
+Palabras clave: Bajo coste, constructor, codigo, reparacion, analisis, busqueda, fix, disponible, chequeo, scanner
+
+Como es;
+Un kit de herramientas que permite extraer informacion del enemigo para analizar el sistema y reparar el firewall, compara estaciones para la mejora.
 
 ### 🗡️ Spyware (Asesino):
 - **Energía Necesaria para Atacar**: Variable
@@ -107,14 +123,21 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 - **Evolución**:
   - Nivel 1 a 2: Energía Variable
   - Nivel 2 a 3: Energía Alta
+Palabras Clave: Indetectable, util, certero, bajo coste, infeccioso
 
-### 🚑 Adware (Sacerdote):
+Como es;
+Un malware espia que siempre llega a atacar al enemigo debido a su antena, es barato pero hace poco daño.
+
+### 🚑 Ransomware (Sacerdote):
 - **Energía Necesaria para Atacar**: Baja
 - **Daño**: Ninguno
 - **Evolución**:
   - Nivel 1 a 2: Energía Baja
   - Nivel 2 a 3: Energía Moderada
+Palabras Clave: Apariencia, curacion, extorsion, encriptacion
 
+Como es;
+Un software que extorsiona a los oponentes y obtiene una vida a cambio de energia de accion del contrario.
 
 ### ⚔️ Combate (Aumento de Energia - Simbolos de Energia)
 

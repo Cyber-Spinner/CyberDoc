@@ -154,8 +154,19 @@ B. Simbolos de energia de ataque - Símbolo de Malware
       - Doble = +Energia*X
 
 C. Simbolos de energia de ataque y experiencia - Símbolo de Error
-- Comportamiento identico a Simbolo de Energia de Ataque.
+- Comportamiento identico a "B. Simbolo de Energia de Ataque".
 - Además de sumar energia de ataque suma experiencia en la barra de nivel del malware al que afecta.
+- Los tipos disponibles son identicos a los de "B. Simbolos de energia de ataque"
+
+D. Símbolos de construccion de Firewall
+-Representa la accion de defensa y construccion del firewall.
+-Levanta una "muralla" contra la que los ataques enemigos pueden perecer.
+-No afecta a un personaje si no a la Estacion de Trabajo completa.
+Existen dos tipos;
+
+      - Único = +Defensa
+      - Doble = +Defensa*X
+
 
 ### 🏆 Objetivo del Juego:
 

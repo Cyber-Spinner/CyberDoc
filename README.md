@@ -7,22 +7,24 @@
 
 1. [🔍 Descripción](#-descripción)
 2. [💻 Tecnologías Utilizadas](#-tecnologías-utilizadas)
-3. [🕹️ Mecánicas de Juego](#️-mecánicas-de-juego)
-   - [🌀 Codigo Aleatorio](#-codigo-aleatorio)
-   - [🤖 Estaciones de Ataque](#-estaciones-de-ataque)
-   - [⚔️ Combate en el Ciberespacio](#️-combate-en-el-ciberespacio)
-   - [🔥 Firewall de Defensa](#-firewall-de-defensa)
-   - [🔥 Actualización de los Servidores](#-actualización-de-los-servidores)
-   - [🔥 Símbolo No Computable](#-símbolo-no-computable)
+3. [🕹️ Mecánicas de Juego y Estilo](#-mecánicas-de-juego-y-estilo)
+   - [🤖 Estaciones de Jugador (Selección de "Malware")](#-estaciones-de-jugador-selección-de-malware)
+   - [🦠 Tipos de Malware en CyberSpinner](#-tipos-de-malware-en-cyberspinner)
+   - [🌀 Tirada de Código Aleatorio (Selección de Acción)](#-tirada-de-código-aleatorio-selección-de-acción)
+   - [⚔️ Combate (Aumento de Energía - Símbolos de Energía)](#-combate-aumento-de-energía---símbolos-de-energía)
+   - [🔥 Firewall de Defensa (Construcción de un firewall - Símbolos de Defensa)](#-firewall-de-defensa-construcción-de-un-firewall---símbolos-de-defensa)
+   - [🔥 Actualización de los "Malware" (Actualización de Software - Símbolos de Actualización)](#-actualización-de-los-malware-actualización-de-software---símbolos-de-actualización)
+   - [🔥 Símbolo No Computable (Slot Perdido - Símbolo de Error)](#-símbolo-no-computable-slot-perdido---símbolo-de-error)
    - [🏆 Objetivo del Juego](#-objetivo-del-juego)
 4. [🎨 Arte y Estilo](#-arte-y-estilo)
-   - [🖼️ Arte](#️-arte)
+   - [🖼️ Arte](#-arte)
    - [📷 Cámaras](#-cámaras)
    - [🎵 Música y Sonido](#-música-y-sonido)
 5. [📖 Historia y Ambientación](#-historia-y-ambientación)
 6. [🔗 Integración con Plataformas y Servicios](#-integración-con-plataformas-y-servicios)
 7. [📝 Notas Finales](#-notas-finales)
 8. [🔍 Referencias](#-referencias)
+
 
 ## 📚 Índice Esquemático
 
@@ -49,13 +51,14 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 
 
 
-### 🤖 Estaciones de Jugador (Seleccion de Servidores):
+### 🤖 Estaciones de Jugador (Seleccion de "Malware"):
 
-- Cada jugador controla una "Estacion", compuesta por la representacion grafica de 2 "servidores" y un codigo central.
-- Existen distintos tipos "servidores" y el jugador debe elegir solo a 2 para cada batalla.
+- Cada jugador controla una "Estacion", compuesta por la representacion grafica de 2 ""Malware"" y un codigo central.
+- Existen distintos tipos ""Malware"" y el jugador debe elegir solo a 2 para cada batalla.
 - Cada tipo de servidor cuenta con una forma de comportarse en la batalla.
 - La seleccion del tipo de servidor es agnostica al oponente, y solo se revela una vez transcurre la seccion de "Eleccion de Servidor"
-- Los servidores de cada oponente se comportaran segun los valores obtenidos durante su Tirada de Codigo.
+- Los "Malware" de cada oponente se comportaran segun los valores obtenidos durante su Tirada de Codigo.
+
 
 ### 🌀 Tirada de Codigo Aleatorio (Seleccion de Acción):
 
@@ -66,12 +69,46 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 - Cada jugador dispone de 3 tiradas por turno, pudiendo bloquear hasta 3 casillas de codigo que se mantendran fijas en la siguiente tirada.
 - Una vez agotadas las 3 tiradas, el resultado del codigo se aplicara a la estacion del jugador y se realizara la accion correspondiente.
 
+### 🦠 Tipos de Malware en CyberSpinner
+
+- En esta sección se definen los tipos de malware seleccionables por el jugador.
+
+   ### 🕵️‍♂️ Trojan (Guerrero):
+   - **Energía Necesaria para Atacar**: Baja
+   - **Daño**: Medio
+   - **Habilidad**: Ataques rápidos y encubiertos que pueden pasar desapercibidos por defensas básicas.
+   
+   ### 🧙‍♂️ Polymorphic Virus (Mago):
+   - **Energía Necesaria**: Media
+   - **Daño**: Alto (ataques múltiples)
+   - **Habilidad**: Capaz de cambiar sus patrones de ataque, dificultando su detección y bloqueo.
+   
+   ### 🏹 Ransomware (Arquero):
+   - **Energía Necesaria**: Alta
+   - **Daño**: Muy Alto
+   - **Habilidad**: Ataques focalizados que pueden causar daños significativos en puntos críticos.
+   
+   ### 🛠️ Rootkit (Ingeniero):
+   - **Energía Necesaria**: Media
+   - **Daño**: Bajo
+   - **Habilidad**: Más enfocado en fortalecer las defensas propias que en atacar.
+   
+   ### 🗡️ Spyware (Asesino):
+   - **Energía Necesaria**: Variable
+   - **Daño**: Bajo a Medio
+   - **Habilidad**: Capacidad de sabotear o ralentizar al enemigo, proporcionando ventajas estratégicas.
+   
+   ### 🚑 Adware (Sacerdote):
+   - **Energía Necesaria**: Baja
+   - **Daño**: Ninguno
+   - **Habilidad**: No ataca directamente, pero puede regenerar recursos o mejorar otros malwares.
+
 
 ### ⚔️ Combate (Aumento de Energia - Simbolos de Energia)
 
-- Los servidores pueden atacar a los personajes de sus oponentes cuando su barra de energía está llena.
+- Los "Malware" pueden atacar a la Estacion de su oponente cuando su barra de energía está llena.
 - El volumen de las barras de energia, y su costo es variable y depende del tipo de servidor.
-- 
+- El valor del daño causado depende del nivel de actualizacion de servidor y su tipo.
 - Un ataque puede encontrar resistencia si se encuentra con un Firewall enemigo.
 
 ### 🔥 Firewall de Defensa (Construccion de un firewall - Simbnolos de Defensa):
@@ -80,9 +117,9 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 - El firewall actúa como una barrera con su propia barra de vida.
 - Los ataques impactan contra el firewall, y cuando este se debilita, eventualmente se pierde, dejando al jugador vulnerable a ataques directos.
 
-### 🔥 Actualización de los Servidores (Actualización de Software - Símbolos de Actualización):
+### 🔥 Actualización de los "Malware" (Actualización de Software - Símbolos de Actualización):
 
-- Los jugadores pueden mejorar sus servidores utilizando símbolos específicos únicos obtenidos en la Tirada de Código Aleatorio.
+- Los jugadores pueden mejorar sus "Malware" utilizando símbolos específicos únicos obtenidos en la Tirada de Código Aleatorio.
 - Un grupo de simbolos rellena otra barra de energia, cuando esta esta completa el servidor se actualiza (evoluciona)
 - El sistema de mejoras es progresivo (3 mejoras) y permite a los jugadores personalizar su estrategia.
 
@@ -125,6 +162,7 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 
 Este Game Design Document (GDD) proporciona una visión general del juego "CyberSpinner" y sus características principales. Es un documento vivo que puede evolucionar a medida que se desarrolla el proyecto.
 
+
 ## 🔍 Referencias
 
 La Referencia principal es el minijuego "Giracodigos aleatorios" del juego JRPG Sea of Stars (Juego local) desarrollado por Sabotage Studios.
@@ -150,3 +188,29 @@ https://www.eliteguias.com/guias/s/sos/sea-of-stars_girarcodigos aleatorios.php
 https://www.youtube.com/watch?v=H0u93GogDto
 
 https://sabotagestudio.com
+
+
+## Conceptos Básicos en CyberSpinner
+
+Juego 1v1 en Cyberespacio: "CyberSpinner" es un juego uno contra uno donde los jugadores asumen el rol de hackers en el ciberespacio. Utilizan una interfaz de "Código Aleatorio" similar a una tragamonedas para combatir.
+
+Inicio del Juego y Selección de "Malware": Al comenzar, cada jugador elige dos "Malware" o programas con habilidades únicas. Estas elecciones se revelan al inicio de la partida.
+
+Mecánica del Código Aleatorio: Similar a la rueda de tragamonedas en "Wheels", los jugadores giran un código formado por símbolos para activar acciones. El objetivo es agotar los puntos de vida del oponente. Cada servidor reacciona de manera diferente según los símbolos obtenidos.
+
+Energía y Acciones de "Malware": Los "Malware" actúan una vez acumulen suficiente energía, que se obtiene al hacer coincidir ciertos símbolos en el Código Aleatorio. Las acciones pueden incluir ataques, defensas o habilidades especiales.
+
+Tácticas y Estrategias: Los jugadores deben desarrollar estrategias basadas en las habilidades de sus "Malware" y los resultados de sus códigos aleatorios, adaptándose a las jugadas del oponente y a los resultados impredecibles de la interfaz de código.
+
+Progresión de "Malware": Al igual que en "Wheels", los "Malware" en "CyberSpinner" pueden mejorar a lo largo del juego. Esto se logra al acumular experiencias o recursos específicos, lo que puede aumentar su eficacia en combate o desbloquear nuevas habilidades.
+
+Estrategia de Combate: Los jugadores deben equilibrar entre atacar al oponente y fortalecer sus defensas (Firewalls). La elección de cuándo y cómo mejorar los "Malware" o construir defensas forma parte de la estrategia del juego.
+
+Elementos de Azar: El uso del "Símbolo No Computable" introduce un factor de riesgo e imprevisibilidad, desafiando a los jugadores a adaptarse constantemente y a formular estrategias en tiempo real.
+
+Esta adaptación de las mecánicas de "Wheels" a "CyberSpinner" ofrece un marco para un juego estratégico y dinámico, donde la toma de decisiones y la adaptabilidad son clave para el éxito.
+
+
+
+
+

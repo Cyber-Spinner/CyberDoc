@@ -73,7 +73,7 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 
 - En esta sección se definen los tipos de malware seleccionables por el jugador.
 
-   ### 🕵️‍♂️ Adware (Guerrero):
+   ### 🗡️ Adware (Guerrero):
 - **Energía Necesaria para Atacar**: Baja
 - **Daño**: Medio
 - **Evolución**:
@@ -117,7 +117,7 @@ Palabras clave: Bajo coste, constructor, codigo, reparacion, analisis, busqueda,
 Como es;
 Un kit de herramientas que permite extraer informacion del enemigo para analizar el sistema y reparar el firewall, compara estaciones para la mejora.
 
-### 🗡️ Spyware (Asesino):
+### 🕵️‍♂️ Spyware (Asesino):
 - **Energía Necesaria para Atacar**: Variable
 - **Daño**: Bajo a Medio
 - **Evolución**:

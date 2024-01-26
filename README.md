@@ -204,10 +204,10 @@ Este Game Design Document (GDD) proporciona una visión general del juego "Cyber
 
 ## 🔍 Referencias
 
-La Referencia principal es el minijuego "Giracodigos aleatorios" del juego JRPG Sea of Stars (Juego local) desarrollado por Sabotage Studios.
+La Referencia principal es el minijuego "girarrodillos" del juego JRPG Sea of Stars (Juego local) desarrollado por Sabotage Studios.
 CyberSpinner se podría definir como una implementación online de las mecánicas de dicho minijuego.
 
-![Giracodigos aleatorios](./img/GDD/girarcodigos aleatorios.jpg)
+![girarrodillos](./img/GDD/girarrodillos.jpg)
 
 1 - Es el número de tiradas que tienes en la ronda actual. 
 2 - Son los símbolos del rodillo.   
@@ -216,13 +216,13 @@ CyberSpinner se podría definir como una implementación online de las mecánica
 
 Fuente: Eliteguias
 
-https://www.eliteguias.com/guias/s/sos/sea-of-stars_girarcodigos aleatorios.php
+https://www.eliteguias.com/guias/s/sos/sea-of-stars_girarrodillos.php
 
 +
 
 https://store.steampowered.com/app/1244090/Sea_of_Stars/
 
-https://www.eliteguias.com/guias/s/sos/sea-of-stars_girarcodigos aleatorios.php
+https://www.eliteguias.com/guias/s/sos/sea-of-stars_girarrodillos.php
 
 https://www.youtube.com/watch?v=H0u93GogDto
 

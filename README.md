@@ -74,34 +74,46 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 - En esta sección se definen los tipos de malware seleccionables por el jugador.
 
    ### 🕵️‍♂️ Trojan (Guerrero):
-   - **Energía Necesaria para Atacar**: Baja
-   - **Daño**: Medio
-   - **Habilidad**: Ataques rápidos y encubiertos que pueden pasar desapercibidos por defensas básicas.
-   
-   ### 🧙‍♂️ Polymorphic Virus (Mago):
-   - **Energía Necesaria**: Media
-   - **Daño**: Alto (ataques múltiples)
-   - **Habilidad**: Capaz de cambiar sus patrones de ataque, dificultando su detección y bloqueo.
-   
-   ### 🏹 Ransomware (Arquero):
-   - **Energía Necesaria**: Alta
-   - **Daño**: Muy Alto
-   - **Habilidad**: Ataques focalizados que pueden causar daños significativos en puntos críticos.
-   
-   ### 🛠️ Rootkit (Ingeniero):
-   - **Energía Necesaria**: Media
-   - **Daño**: Bajo
-   - **Habilidad**: Más enfocado en fortalecer las defensas propias que en atacar.
-   
-   ### 🗡️ Spyware (Asesino):
-   - **Energía Necesaria**: Variable
-   - **Daño**: Bajo a Medio
-   - **Habilidad**: Capacidad de sabotear o ralentizar al enemigo, proporcionando ventajas estratégicas.
-   
-   ### 🚑 Adware (Sacerdote):
-   - **Energía Necesaria**: Baja
-   - **Daño**: Ninguno
-   - **Habilidad**: No ataca directamente, pero puede regenerar recursos o mejorar otros malwares.
+- **Energía Necesaria para Atacar**: Baja
+- **Daño**: Medio
+- **Evolución**:
+  - Nivel 1 a 2: Energía Moderada
+  - Nivel 2 a 3: Energía Alta
+
+### 🧙‍♂️ Polymorphic Virus (Mago):
+- **Energía Necesaria para Atacar**: Media
+- **Daño**: Alto
+- **Evolución**:
+  - Nivel 1 a 2: Energía Alta
+  - Nivel 2 a 3: Energía Muy Alta
+
+### 🏹 Ransomware (Arquero):
+- **Energía Necesaria para Atacar**: Alta
+- **Daño**: Alta
+- **Evolución**:
+  - Nivel 1 a 2: Energía Alta
+  - Nivel 2 a 3: Energía Extremadamente Alta
+
+### 🛠️ Rootkit (Ingeniero):
+- **Energía Necesaria para Atacar**: Media
+- **Daño**: Bajo
+- **Evolución**:
+  - Nivel 1 a 2: Energía Baja
+  - Nivel 2 a 3: Energía Moderada
+
+### 🗡️ Spyware (Asesino):
+- **Energía Necesaria para Atacar**: Variable
+- **Daño**: Bajo a Medio
+- **Evolución**:
+  - Nivel 1 a 2: Energía Variable
+  - Nivel 2 a 3: Energía Alta
+
+### 🚑 Adware (Sacerdote):
+- **Energía Necesaria para Atacar**: Baja
+- **Daño**: Ninguno
+- **Evolución**:
+  - Nivel 1 a 2: Energía Baja
+  - Nivel 2 a 3: Energía Moderada
 
 
 ### ⚔️ Combate (Aumento de Energia - Simbolos de Energia)

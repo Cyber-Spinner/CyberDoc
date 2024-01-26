@@ -8,10 +8,12 @@
 1. [🔍 Descripción](#-descripción)
 2. [💻 Tecnologías Utilizadas](#-tecnologías-utilizadas)
 3. [🕹️ Mecánicas de Juego](#️-mecánicas-de-juego)
-   - [🌀 Codigo Aleatorio](#-codigos aleatorios-de-la-fortuna)
+   - [🌀 Codigo Aleatorio](#-codigo-aleatorio)
    - [🤖 Estaciones de Ataque](#-estaciones-de-ataque)
    - [⚔️ Combate en el Ciberespacio](#️-combate-en-el-ciberespacio)
    - [🔥 Firewall de Defensa](#-firewall-de-defensa)
+   - [🔥 Actualización de los Servidores](#-actualización-de-los-servidores)
+   - [🔥 Símbolo No Computable](#-símbolo-no-computable)
    - [🏆 Objetivo del Juego](#-objetivo-del-juego)
 4. [🎨 Arte y Estilo](#-arte-y-estilo)
    - [🖼️ Arte](#️-arte)
@@ -45,34 +47,50 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 
 ## 🕹️ Mecánicas de Juego y Estilo
 
-### 🌀 Codigo Aleatorio:
 
+
+### 🤖 Estaciones de Jugador (Seleccion de Servidores):
+
+- Cada jugador controla una "Estacion", compuesta por la representacion grafica de 2 "servidores" y un codigo central.
+- Existen distintos tipos "servidores" y el jugador debe elegir solo a 2 para cada batalla.
+- Cada tipo de servidor cuenta con una forma de comportarse en la batalla.
+- La seleccion del tipo de servidor es agnostica al oponente, y solo se revela una vez transcurre la seccion de "Eleccion de Servidor"
+- Los servidores de cada oponente se comportaran segun los valores obtenidos durante su Tirada de Codigo.
+
+### 🌀 Tirada de Codigo Aleatorio (Seleccion de Acción):
+
+- El jugador que tira primero es definido de forma aleatoria (TODO: Buscar elemento aleatorio representativo)
 - El codigo aleatorio se compone de 5 slots para simbolos.
-- El jugador que empieza primero se define de forma aleatoria.
-- Los jugadores giran el Codigo Aleatorio al comienzo de su turno.
-- Los resultados de los codigos aleatorios determinan las acciones disponibles, como <br>aumentar la energía</br>, mejorar personajes o crear escudos.
+- Los jugadores giran el Codigo Aleatorio al comienzo de su turno y cuando este para obtiene ciertos valores.
+- Los resultados de los codigos aleatorios determinan las acciones disponibles, como aumentar la energía, mejorar personajes o crear escudos.
 - Cada jugador dispone de 3 tiradas por turno, pudiendo bloquear hasta 3 casillas de codigo que se mantendran fijas en la siguiente tirada.
 - Una vez agotadas las 3 tiradas, el resultado del codigo se aplicara a la estacion del jugador y se realizara la accion correspondiente.
 
 
-### 🤖 Estaciones de Jugador:
+### ⚔️ Combate (Aumento de Energia - Simbolos de Energia)
 
-- Cada jugador controla una "Estacion", compuesta por la representacion grafica de 2 "servidores".
-- Existen distintos tipos "servidores" y el jugador debe elegir solo a 2 para cada batalla.
-- Cada tipo de servidor cuenta con una forma de comportarse en la batalla.
-- La seleccion del tipo de servidor es agnostica al oponente, y solo se revela una vez transcurre la seccion de "Eleccion de Servidor"
-- La combinacion de codigos obtenidos tras agotar las tiradas determinan el comportamiento de cada "servidor".
+- Los servidores pueden atacar a los personajes de sus oponentes cuando su barra de energía está llena.
+- El volumen de las barras de energia, y su costo es variable y depende del tipo de servidor.
+- 
+- Un ataque puede encontrar resistencia si se encuentra con un Firewall enemigo.
 
-### ⚔️ Combate en el Ciberespacio:
-
-- Los jugadores pueden atacar a los personajes de sus oponentes cuando su barra de energía está llena.
-- El combate se resuelve mediante enfrentamientos estratégicos basados en las habilidades de los personajes y las decisiones tácticas.
-
-### 🔥 Firewall de Defensa:
+### 🔥 Firewall de Defensa (Construccion de un firewall - Simbnolos de Defensa):
 
 - Algunos recursos otorgados por los codigos aleatorios permiten a los jugadores defenderse de los ataques del oponente.
 - El firewall actúa como una barrera con su propia barra de vida.
 - Los ataques impactan contra el firewall, y cuando este se debilita, eventualmente se pierde, dejando al jugador vulnerable a ataques directos.
+
+### 🔥 Actualización de los Servidores (Actualización de Software - Símbolos de Actualización):
+
+- Los jugadores pueden mejorar sus servidores utilizando símbolos específicos únicos obtenidos en la Tirada de Código Aleatorio.
+- Un grupo de simbolos rellena otra barra de energia, cuando esta esta completa el servidor se actualiza (evoluciona)
+- El sistema de mejoras es progresivo (3 mejoras) y permite a los jugadores personalizar su estrategia.
+
+### 🔥 Símbolo No Computable (Slot Perdido - Símbolo de Error):
+
+- Representa un símbolo en la Tirada de Código Aleatorio que no tiene efecto y solo ocupa espacio en el rodillo.
+- Este símbolo introduce un elemento de azar y riesgo, desafiando a los jugadores a adaptar su estrategia en base a resultados impredecibles.
+
 
 ### 🏆 Objetivo del Juego:
 

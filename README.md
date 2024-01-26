@@ -3,12 +3,12 @@
 [![Plataformas](https://img.shields.io/badge/Plataformas-PC-blue)](https://todo.cs.dev.spinner.com)
 [![Género](https://img.shields.io/badge/G%C3%A9nero-Azar%20y%20Estrategia%20por%20turnos%2C%20Hacking%2C%20Ciberseguridad-green)](https://todo.cs.dev.spinner.com)
 
-## 📚 Índice
+## 📚 Índice General
 
 1. [🔍 Descripción](#-descripción)
 2. [💻 Tecnologías Utilizadas](#-tecnologías-utilizadas)
 3. [🕹️ Mecánicas de Juego](#️-mecánicas-de-juego)
-   - [🌀 Rodillos de la Fortuna](#-rodillos-de-la-fortuna)
+   - [🌀 Codigo Aleatorio](#-codigos aleatorios-de-la-fortuna)
    - [🤖 Estaciones de Ataque](#-estaciones-de-ataque)
    - [⚔️ Combate en el Ciberespacio](#️-combate-en-el-ciberespacio)
    - [🔥 Firewall de Defensa](#-firewall-de-defensa)
@@ -22,9 +22,15 @@
 7. [📝 Notas Finales](#-notas-finales)
 8. [🔍 Referencias](#-referencias)
 
+## 📚 Índice Esquemático
+
+A. [🔍 Interfaz de Juego](#-descripción)
+B. [🔍 Menu Principal](#-descripción)
+C. [🔍 Diagramas de Flujo](#-descripción)
+
 ## 🔍 Descripción
 
-"CyberSpinner" es un juego de azar y estrategia por turnos, modo multijugador 1VS1, en el que dos jugadores asumen el papel de hackers adversarios que se enfrentan en el ciberespacio. La clave del juego es hacer girar unos "rodillos de la fortuna" para determinar las acciones disponibles en cada turno y elegir sabiamente cómo usar los recursos obtenidos para derrotar al oponente.
+"CyberSpinner" es un juego de azar y estrategia por turnos, modo multijugador 1VS1, en el que dos jugadores asumen el papel de hackers adversarios que se enfrentan en el ciberespacio. La clave del juego es hacer girar un "Codigo Aleatorio formado por simbolos" para determinar las acciones disponibles en cada turno y elegir sabiamente cómo usar los recursos obtenidos para derrotar al oponente.
 
 ## 💻 Tecnologías Utilizadas
 
@@ -37,18 +43,25 @@
 - IAC: Kubernetes/Docker
 - Otras
 
-## 🕹️ Mecánicas de Juego (Eventos en orden de aparición durante una partida)
+## 🕹️ Mecánicas de Juego y Estilo
 
-### 🌀 Rodillos de la Fortuna:
+### 🌀 Codigo Aleatorio:
 
+- El codigo aleatorio se compone de 5 slots para simbolos.
 - El jugador que empieza primero se define de forma aleatoria.
-- Los jugadores giran los rodillos de la fortuna al comienzo de su turno.
-- Los resultados de los rodillos determinan las acciones disponibles, como aumentar la energía, mejorar personajes o crear escudos.
+- Los jugadores giran el Codigo Aleatorio al comienzo de su turno.
+- Los resultados de los codigos aleatorios determinan las acciones disponibles, como aumentar la energía, mejorar personajes o crear escudos.
+- Cada jugador dispone de 3 tiradas por turno, pudiendo bloquear hasta 3 casillas de codigo que se mantendran fijas en la siguiente tirada.
+- Una vez agotadas las 3 tiradas, el resultado del codigo se aplicara a la estacion del jugador y se realizara la accion correspondiente.
 
-### 🤖 Estaciones de Ataque:
 
-- Cada jugador controla un equipo de 2 servidores/malware, cada uno con habilidades únicas.
-- Los personajes pueden subir de nivel con recursos ganados en el juego mediante el giro de los rodillos.
+### 🤖 Estaciones de Jugador:
+
+- Cada jugador controla una "Estacion", compuesta por la representacion grafica de 2 "servidores".
+- Existen distintos tipos "servidores" y el jugador debe elegir solo a 2 para cada batalla.
+- Cada tipo de servidor cuenta con una forma de comportarse en la batalla.
+- La seleccion del tipo de servidor es agnostica al oponente, y solo se revela una vez transcurre la seccion de "Eleccion de Servidor"
+- La combinacion de codigos obtenidos tras agotar las tiradas determinan el comportamiento de cada "servidor".
 
 ### ⚔️ Combate en el Ciberespacio:
 
@@ -57,7 +70,7 @@
 
 ### 🔥 Firewall de Defensa:
 
-- Algunos recursos otorgados por los rodillos permiten a los jugadores defenderse de los ataques del oponente.
+- Algunos recursos otorgados por los codigos aleatorios permiten a los jugadores defenderse de los ataques del oponente.
 - El firewall actúa como una barrera con su propia barra de vida.
 - Los ataques impactan contra el firewall, y cuando este se debilita, eventualmente se pierde, dejando al jugador vulnerable a ataques directos.
 
@@ -96,10 +109,10 @@ Este Game Design Document (GDD) proporciona una visión general del juego "Cyber
 
 ## 🔍 Referencias
 
-La Referencia principal es el minijuego "Girarodillos" del juego JRPG Sea of Stars (Juego local) desarrollado por Sabotage Studios.
+La Referencia principal es el minijuego "Giracodigos aleatorios" del juego JRPG Sea of Stars (Juego local) desarrollado por Sabotage Studios.
 CyberSpinner se podría definir como una implementación online de las mecánicas de dicho minijuego.
 
-![Girarodillos](./img/GDD/girarrodillos.jpg)
+![Giracodigos aleatorios](./img/GDD/girarcodigos aleatorios.jpg)
 
 1 - Es el número de tiradas que tienes en la ronda actual. 
 2 - Son los símbolos del rodillo.   
@@ -108,13 +121,13 @@ CyberSpinner se podría definir como una implementación online de las mecánica
 
 Fuente: Eliteguias
 
-https://www.eliteguias.com/guias/s/sos/sea-of-stars_girarrodillos.php
+https://www.eliteguias.com/guias/s/sos/sea-of-stars_girarcodigos aleatorios.php
 
 +
 
 https://store.steampowered.com/app/1244090/Sea_of_Stars/
 
-https://www.eliteguias.com/guias/s/sos/sea-of-stars_girarrodillos.php
+https://www.eliteguias.com/guias/s/sos/sea-of-stars_girarcodigos aleatorios.php
 
 https://www.youtube.com/watch?v=H0u93GogDto
 

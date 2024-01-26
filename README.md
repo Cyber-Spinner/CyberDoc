@@ -3,7 +3,7 @@
 [![Plataformas](https://img.shields.io/badge/Plataformas-PC-blue)](https://todo.cs.dev.spinner.com)
 [![Género](https://img.shields.io/badge/G%C3%A9nero-Azar%20y%20Estrategia%20por%20turnos%2C%20Hacking%2C%20Ciberseguridad-green)](https://todo.cs.dev.spinner.com)
 
-## 📚 Índice General
+### 📚 Índice General
 
 1. [🔍 Descripción](#-descripción)
 2. [💻 Tecnologías Utilizadas](#-tecnologías-utilizadas)
@@ -26,7 +26,7 @@
 8. [🔍 Referencias](#-referencias)
 
 
-## 📚 Índice Esquemático
+### 📚 Índice Esquemático
 
 A. [🔍 Interfaz de Juego](#-descripción)
 B. [🔍 Menu Principal](#-descripción)

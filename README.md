@@ -11,10 +11,10 @@
    - [🤖 Estaciones de Jugador (Selección de "Malware")](#-estaciones-de-jugador-selección-de-malware)
    - [🦠 Tipos de Malware en CyberSpinner](#-tipos-de-malware-en-cyberspinner)
    - [🌀 Tirada de Código Aleatorio (Selección de Acción)](#-tirada-de-código-aleatorio-selección-de-acción)
+   - [🔥 Símbolos del Codigo ](#-símbolos-del-codigo)
    - [⚔️ Combate (Aumento de Energía - Símbolos de Energía)](#-combate-aumento-de-energía---símbolos-de-energía)
    - [🔥 Firewall de Defensa (Construcción de un firewall - Símbolos de Defensa)](#-firewall-de-defensa-construcción-de-un-firewall---símbolos-de-defensa)
    - [🔥 Actualización de los "Malware" (Actualización de Software - Símbolos de Actualización)](#-actualización-de-los-malware-actualización-de-software---símbolos-de-actualización)
-   - [🔥 Símbolo No Computable (Slot Perdido - Símbolo de Error)](#-símbolo-no-computable-slot-perdido---símbolo-de-error)
    - [🏆 Objetivo del Juego](#-objetivo-del-juego)
 4. [🎨 Arte y Estilo](#-arte-y-estilo)
    - [🖼️ Arte](#-arte)
@@ -135,11 +135,27 @@ C. [🔍 Diagramas de Flujo](#-descripción)
 - Un grupo de simbolos rellena otra barra de energia, cuando esta esta completa el servidor se actualiza (evoluciona)
 - El sistema de mejoras es progresivo (3 mejoras) y permite a los jugadores personalizar su estrategia.
 
-### 🔥 Símbolo No Computable (Slot Perdido - Símbolo de Error):
+### 🔥 Símbolos del Codigo:
 
+A. Slot Perdido - Símbolo de Error
 - Representa un símbolo en la Tirada de Código Aleatorio que no tiene efecto y solo ocupa espacio en el rodillo.
 - Este símbolo introduce un elemento de azar y riesgo, desafiando a los jugadores a adaptar su estrategia en base a resultados impredecibles.
 
+B. Simbolos de energia de ataque - Símbolo de Malware
+- Representa un símbolo en la Tirada de Código Aleatorio que sirve para aumentar la energia de ataque.
+- Existen dos tipos de simbolos de energia de ataque basandose en la posicion del malware y ,a su vez,  dos tipos mas basados en el nivel de    energia que aumenta.  
+
+   - Izquierda (Aplica a Malware de la Izquierda) 
+      - Único = +Energia
+      - Doble = +Energia*X
+
+   - Derecha (Aplica a Malware de la Derecha)
+      - Único = +Energia
+      - Doble = +Energia*X
+
+C. Simbolos de energia de ataque y experiencia - Símbolo de Error
+- Comportamiento identico a Simbolo de Energia de Ataque.
+- Además de sumar energia de ataque suma experiencia en la barra de nivel del malware al que afecta.
 
 ### 🏆 Objetivo del Juego:
 

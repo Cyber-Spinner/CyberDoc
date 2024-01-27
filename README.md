@@ -19,6 +19,7 @@
 3. [🕹️ Mecánicas de Juego y Estilo](#-mecánicas-de-juego-y-estilo)
    - [🤖 Estaciones de Jugador (Selección de "Malware")](#-estaciones-de-jugador-selección-de-malware)
    - [🦠 Tipos de Malware en CyberSpinner](#-tipos-de-malware-en-cyberspinner)
+   - [ Tipos de Ataque en CyberSpinner](#-tipos-de-ataque-en-cyberspinner)
    - [🌀 Tirada de Código Aleatorio (Selección de Acción)](#-tirada-de-código-aleatorio-selección-de-acción)
    - [🔥 Símbolos del Codigo ](#-símbolos-del-codigo)
    - [⚔️ Combate (Aumento de Energía - Símbolos de Energía)](#-combate-aumento-de-energía---símbolos-de-energía)
@@ -159,6 +160,21 @@ Palabras Clave: Apariencia, curacion, extorsion, encriptacion
 
 Como es;
 Un software que extorsiona a los oponentes y obtiene una vida a cambio de energia de accion del contrario.
+
+## 🎯 Tipos de Ataque en CyberSpinner
+
+### Ataque de Fuerza Bruta (Normal)
+- **Descripción**: Un potente ataque de daño bajo que no puede penetrar firewalls.
+- **Detalles**: Este ataque representa un intento de fuerza bruta para acceder a sistemas protegidos. Aunque es potente, es ineficaz contra cualquier nivel de firewall.
+
+### Combo Exploit (Doble)
+- **Descripción**: Una combinación de un ataque normal seguido de un ataque alto.
+- **Detalles**: Este ataque primero intenta un acceso directo y luego explota una vulnerabilidad, lo que le permite potencialmente penetrar firewalls. Aunque el primer ataque no penetra, el segundo, siendo de menor daño, puede lograrlo.
+
+### Inyección Sigilosa SQL (Encubierto)
+- **Descripción**: Un ataque discreto que causa poco daño pero disminuye la barra de energía de ataque del enemigo.
+- **Detalles**: Representa una táctica de hacking avanzada donde el ataque no solo daña, sino que también interfiere con los recursos de ataque del oponente, debilitando sus futuras ofensivas.
+
 
 ### ⚔️ Combate (Aumento de Energia - Simbolos de Energia)
 

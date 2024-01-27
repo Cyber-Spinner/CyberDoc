@@ -6,9 +6,9 @@
 
 ![cyberspinner](./img/GDD/readme_banner.png)
 
-<small>Imagen generada por IA (Dalle-2).
+##### Imagen generada por IA (Dalle-2).
 
-No representa el estado final del videojuego pero si su paleta de color.</small>
+##### No representa el estado final del videojuego pero si su paleta de color.
 
 ### 📚 Índice General
 

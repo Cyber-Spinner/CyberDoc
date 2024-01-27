@@ -6,7 +6,7 @@
 
 ![cyberspinner](./img/GDD/readme_banner.png)
 
-###### Generada por "DALL·E 2": No representa el estado final del videojuego, pero si su paleta de color.
+###### Generada por "DALL·E 2": No representa el estilo de arte del videojuego, pero si el sentimiento, entorno y paleta de color.
 
 ### 📚 Índice General
 

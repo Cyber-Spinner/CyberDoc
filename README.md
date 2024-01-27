@@ -194,10 +194,11 @@ C. Simbolos de energia de ataque y experiencia - Símbolo de Error
 - Los tipos disponibles son identicos a los de "B. Simbolos de energia de ataque"
 
 D. Símbolos de construccion de Firewall
--Representa la accion de defensa y construccion del firewall.
--Levanta una "muralla" contra la que los ataques enemigos pueden perecer.
--No afecta a un personaje si no a la Estacion de Trabajo completa.
-Existen dos tipos;
+- Representa la accion de defensa y construccion del firewall.
+- Levanta una "muralla" contra la que los ataques enemigos pueden perecer.
+- No afecta a un personaje si no a la Estacion de Trabajo completa.
+
+    - Existen dos tipos;
 
       - Único = +Defensa
       - Doble = +Defensa*X
@@ -303,9 +304,9 @@ Esta adaptación de las mecánicas de "Wheels" a "CyberSpinner" ofrece un marco 
 
 Ejemplos:
   - "tipo_etapa_definicion_concreccion"
-  - "pv_station_p_A" -> Pivote de la Station del Player A (GO)
-  - "cg_bl_mw_A2" -> Blocking Computer Graphics del MalWare número 2 del Jugador A (MESH)
-  - "cg_bl_mw_A1" -> Blocking Computer Graphics del MalWare número 1 del Jugador A (MESH)
+  - `pv_station_p_A` -> Pivote de la Station del Player A (GO)
+  - `cg_bl_mw_A2` -> Blocking Computer Graphics del MalWare número 2 del Jugador A (MESH)
+  - `cg_bl_mw_A1` -> Blocking Computer Graphics del MalWare número 1 del Jugador A (MESH)
 
 ### 💻 Código y Estilo:
 

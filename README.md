@@ -4,7 +4,8 @@
 [![Plataformas](https://img.shields.io/badge/Plataformas-PC-blue)](https://todo.cs.dev.spinner.com)
 [![Género](https://img.shields.io/badge/G%C3%A9nero-Azar%20y%20Estrategia%20por%20turnos%2C%20Hacking%2C%20Ciberseguridad-green)](https://todo.cs.dev.spinner.com)
 
-![cyberspinner](./img/GDD/readme_banner.png)
+<img src="./img/GDD/readme_banner.png" alt="cyberspinner" width="300">
+
 
 ###### Generada por "DALL·E 2": No representa el estilo de arte del videojuego, pero si el sentimiento, entorno y paleta de color.
 

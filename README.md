@@ -172,7 +172,7 @@ Un software que extorsiona a los oponentes y obtiene una vida a cambio de energi
 - **Detalles**: Este ataque primero intenta un acceso directo y luego explota una vulnerabilidad, lo que le permite potencialmente penetrar firewalls. Aunque el primer ataque no penetra, el segundo, siendo de menor daño, puede lograrlo.
 
 ### 🕵️‍♂️ Inyección Sigilosa (Encubierto)
-- **Descripción**: Un ataque discreto que causa poco daño pero disminuye la barra de energía de ataque del enemigo.
+- **Descripción**: Un ataque discreto y siempre certero que causa poco daño pero disminuye la barra de energía de ataque del enemigo.
 - **Detalles**: Representa una táctica de hacking avanzada donde el ataque no solo daña, sino que también interfiere con los recursos de ataque del oponente, debilitando sus futuras ofensivas.
 
 

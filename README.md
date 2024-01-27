@@ -1,7 +1,12 @@
 # 🎮 CyberSpinner: Game Design Document
 
+
 [![Plataformas](https://img.shields.io/badge/Plataformas-PC-blue)](https://todo.cs.dev.spinner.com)
 [![Género](https://img.shields.io/badge/G%C3%A9nero-Azar%20y%20Estrategia%20por%20turnos%2C%20Hacking%2C%20Ciberseguridad-green)](https://todo.cs.dev.spinner.com)
+
+![cyberspinner](./img/GDD/readme_banner.png)
+
+Imagen generada por IA (Dalle-2; No representa el estado final del videojuego)
 
 ### 📚 Índice General
 

@@ -197,26 +197,36 @@ Un software que extorsiona a los oponentes y obtiene una vida a cambio de energi
 
 ### 🔥 Símbolos del Codigo:
 
+A continuacion se definen los tipos de simbolo que puede obtener el jugador en cada uno de los 5 slot tras una tirada.
+
 A. Slot Perdido - Símbolo de Error
 - Representa un símbolo en la Tirada de Código Aleatorio que no tiene efecto y solo ocupa espacio en el rodillo.
 - Este símbolo introduce un elemento de azar y riesgo, desafiando a los jugadores a adaptar su estrategia en base a resultados impredecibles.
+  ID: ERR
 
-B. Simbolos de energia de ataque - Símbolo de Malware
+B. Simbolos de energia de ataque - Símbolo de Malware => ID: RA
 - Representa un símbolo en la Tirada de Código Aleatorio que sirve para aumentar la energia de ataque.
 - Existen dos tipos de simbolos de energia de ataque basandose en la posicion del malware y ,a su vez,  dos tipos mas basados en el nivel de    energia que aumenta.  
 
    - Izquierda (Aplica a Malware de la Izquierda) 
-      - Único = +Energia
+      - Único = +Energia 
+      ID: LA
       - Doble = +Energia*X
+      ID: LALA
 
    - Derecha (Aplica a Malware de la Derecha)
       - Único = +Energia
+      ID: RA
       - Doble = +Energia*X
+      ID: RARA
 
 C. Simbolos de energia de ataque y experiencia - Símbolo de Error
 - Comportamiento identico a "B. Simbolo de Energia de Ataque".
 - Además de sumar energia de ataque suma experiencia en la barra de nivel del malware al que afecta.
 - Los tipos disponibles son identicos a los de "B. Simbolos de energia de ataque"
+
+  ID: LAEXP / LALAEXP
+  ID: RAEXP  /RARAEXP
 
 D. Símbolos de construccion de Firewall
 - Representa la accion de defensa y construccion del firewall.
@@ -226,7 +236,9 @@ D. Símbolos de construccion de Firewall
     - Existen dos tipos;
 
       - Único = +Defensa
+      ID: FW
       - Doble = +Defensa*X
+      ID: FWFW
 
 
 ### 🏆 Objetivo del Juego:

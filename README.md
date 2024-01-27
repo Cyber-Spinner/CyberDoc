@@ -32,6 +32,12 @@ A. [🔍 Interfaz de Juego](#-descripción)
 B. [🔍 Menu Principal](#-descripción)
 C. [🔍 Diagramas de Flujo](#-descripción)
 
+### 📚 Guía De Estilo durante el desarrollo
+
+X. [🔍 Nomenclatura](#-nomenclatura)
+
+
+
 ## 🔍 Descripción
 
 "CyberSpinner" es un juego de azar y estrategia por turnos, modo multijugador 1VS1, en el que dos jugadores asumen el papel de hackers adversarios que se enfrentan en el ciberespacio. La clave del juego es hacer girar un "Codigo Aleatorio formado por simbolos" para determinar las acciones disponibles en cada turno y elegir sabiamente cómo usar los recursos obtenidos para derrotar al oponente.
@@ -286,6 +292,37 @@ Elementos de Azar: El uso del "Símbolo No Computable" introduce un factor de ri
 Esta adaptación de las mecánicas de "Wheels" a "CyberSpinner" ofrece un marco para un juego estratégico y dinámico, donde la toma de decisiones y la adaptabilidad son clave para el éxito.
 
 
+# Guía de Estilo para Desarrollo en Unity
 
+## 🔍 Nomenclatura
 
+### 📁 Nombres en Hierarchy y Project:
 
+- Utiliza guiones bajos (_) en lugar de espacios para una mejor legibilidad.
+- Nombra los objetos de manera descriptiva y esquemática.
+
+Ejemplos:
+  - "tipo_etapa_definicion_concreccion"
+  - "pv_station_p_A" -> Pivote de la Station del Player A (GO)
+  - "cg_bl_mw_A2" -> Blocking Computer Graphics del MalWare número 2 del Jugador A (MESH)
+  - "cg_bl_mw_A1" -> Blocking Computer Graphics del MalWare número 1 del Jugador A (MESH)
+
+### 💻 Código y Estilo:
+
+- **Clases y Métodos**: Utiliza PascalCase.
+  
+  Ejemplos: 
+    - `MiClase`
+    - `CalcularVelocidad`
+
+- **Variables y Campos**: Emplea camelCase.
+
+  Ejemplos:
+    - `miVariable`
+    - `velocidadInicial`
+
+- **Constantes**: Escribe en MAYÚSCULAS con GUIONES BAJOS.
+
+  Ejemplos:
+    - `MI_CONSTANTE`
+    - `VELOCIDAD_MAXIMA`

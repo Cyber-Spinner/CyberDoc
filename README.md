@@ -367,3 +367,45 @@ Ejemplos:
     - `VELOCIDAD_MAXIMA`
 
 ![GDiag](./img/GDD/GDiag.png)
+
+#SERVIDOR
+  Matchmaking y Lobby:
+  
+  Gestionar la cola de jugadores buscando partidas.
+  Emparejar jugadores según la lógica de matchmaking.
+  Sincronizar el estado de preparación de los jugadores.
+  Lógica del Juego:
+  
+  Mantener el estado del juego y la lógica de progresión de las rondas.
+  Procesar las selecciones de los jugadores y calcular los resultados finales.
+  Determinar y enviar las consecuencias de las jugadas a los clientes (resultados de las rondas, daño, defensa, etc.).
+  Ejecutar comprobaciones de vida y determinar el resultado del juego (victoria/derrota).
+  Estado del Juego:
+  
+  Mantener un registro del estado actual del juego para cada pareja de jugadores.
+  Gestionar la lógica para las rondas de juego y el seguimiento de las selecciones de slots.
+  Validar las acciones del jugador para evitar trampas o errores.
+  Comunicación:
+  
+  Manejar las solicitudes y respuestas entre el cliente y el servidor.
+  Enviar actualizaciones de estado y cambios al cliente.
+
+
+
+#CLIENTE
+  Interfaz de Usuario:
+  
+  Mostrar menús, lobbies, y pantallas de selección de héroes.
+  Capturar la entrada del jugador para la selección de slots y héroes.
+  Animaciones y Presentación:
+  
+  Ejecutar animaciones locales basadas en los resultados y comandos del servidor (por ejemplo, animaciones de ataque, defensa, y resultados).
+  Actualizar la interfaz de usuario con el estado del juego recibido del servidor.
+  Validación Local:
+  
+  Validar entradas del usuario antes de enviarlas al servidor (por ejemplo, verificar si un slot ya ha sido seleccionado).
+  Manejar la lógica de la interfaz de usuario que no afecta directamente al estado del juego (por ejemplo, menús de opciones, navegación).
+  Comunicaciones de Red:
+  
+  Enviar acciones del jugador y selecciones al servidor.
+  Recibir y procesar las actualizaciones del estado del juego y los resultados de las rondas del servidor.

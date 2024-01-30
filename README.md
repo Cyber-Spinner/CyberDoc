@@ -14,6 +14,19 @@
 
 ### 📚 Índice General
 
+# 🎮 CyberSpinner: Game Design Document
+
+[![Plataformas](https://img.shields.io/badge/Plataformas-PC-blue)](https://todo.cs.dev.spinner.com)
+[![Género](https://img.shields.io/badge/G%C3%A9nero-Azar%20y%20Estrategia%20por%20turnos%2C%20Hacking%2C%20Ciberseguridad-green)](https://todo.cs.dev.spinner.com)
+
+<div align="center">
+    <img src="./img/GDD/readme_banner.png" alt="CyberSpinner" width="600">
+</div>
+
+###### Generada por "DALL·E 2": No representa el estilo de arte del videojuego, pero si el sentimiento, entorno y paleta de color.
+
+### 📚 Índice General
+
 1. [🔍 Descripción](#-descripción)
 2. [💻 Tecnologías Utilizadas](#-tecnologías-utilizadas)
 3. [🕹️ Mecánicas de Juego y Estilo](#-mecánicas-de-juego-y-estilo)
@@ -34,20 +47,16 @@
 6. [🔗 Integración con Plataformas y Servicios](#-integración-con-plataformas-y-servicios)
 7. [📝 Notas Finales](#-notas-finales)
 8. [🔍 Referencias](#-referencias)
-
-X. [🔍 Nomenclatura](#-nomenclatura)
-
-### 📚 INFRAESTRUCTURA DE CODIGO
-
-A. [🔍 Diagrama General](#-descripción)
-B. [🔍 Reparto de tareas](#-descripción)
-C. [🔍 Diagramas de Flujo](#-descripción)
-
-### 📚 Guía De Estilo durante el desarrollo
-
-
-
-
+9. [📚 INFRAESTRUCTURA DE CODIGO](#-infraestructura-de-codigo)
+   - [🔍 Diagrama General](#-diagrama-de-flujo)
+   - [🔍 Reparto de Tareas](#-reparto-de-tareas)
+   - [🔍 Diagramas de Flujo Textual](#-diagramas-de-flujo-textual)
+      - [🌐 Conexión al Servidor](#-conexión-al-servidor)
+      - [🏠 Flujos del Menú Principal](#-flujos-del-menú-principal)
+      - [🛡️ Selección de Héroes y Gameplay](#-selección-de-héroes-y-gameplay)
+      - [🏁 Condiciones de Finalización](#-condiciones-de-finalización)
+10. [📚 Guía De Estilo durante el desarrollo](#-guía-de-estilo-durante-el-desarrollo)
+11. [🔍 Nomenclatura](#-nomenclatura)
 
 ## 🔍 Descripción
 
@@ -367,7 +376,7 @@ Ejemplos:
     - `MI_CONSTANTE`
     - `VELOCIDAD_MAXIMA`
 
-# DIAGRAMA DE FLUJO GENERAL
+# Diagrama de flujo
 
 ![GDiag](./img/GDD/GDiag.png)
 

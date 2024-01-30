@@ -367,52 +367,38 @@ Ejemplos:
     - `MI_CONSTANTE`
     - `VELOCIDAD_MAXIMA`
 
+# DIAGRAMA DE FLUJO GENERAL
+
 ![GDiag](./img/GDD/GDiag.png)
 
 
-REPARTO DE TAREAS CLIENTE/SERVIDOR
+# Diagrama de flujo textual
 
+## 🌐 Conexión al Servidor
+- **Cliente** 🖥️: Inicializa la conexión de red y se conecta al servidor central. Muestra una pantalla de carga o de estado mientras se establece la conexión.
+- **Servidor** ☁️: Acepta conexiones entrantes, autentica a los jugadores y gestiona las sesiones de usuario.
 
-#SERVIDOR
+## 🏠 Flujos del Menú Principal
+- **Cliente** 🖥️:
+  - Presenta la imagen principal y la interfaz del menú principal.
+  - Recoge las interacciones del jugador y envía solicitudes para unirse al lobby.
+- **Servidor** ☁️:
+  - Gestiona los lobbies de matchmaking y empareja a los jugadores.
+  - Notifica a los clientes cuando se encuentra una partida.
 
-  Matchmaking y Lobby:
-  
-  Gestionar la cola de jugadores buscando partidas.
-  Emparejar jugadores según la lógica de matchmaking.
-  Sincronizar el estado de preparación de los jugadores.
-  Lógica del Juego:
-  
-  Mantener el estado del juego y la lógica de progresión de las rondas.
-  Procesar las selecciones de los jugadores y calcular los resultados finales.
-  Determinar y enviar las consecuencias de las jugadas a los clientes (resultados de las rondas, daño, defensa, etc.).
-  Ejecutar comprobaciones de vida y determinar el resultado del juego (victoria/derrota).
-  Estado del Juego:
-  
-  Mantener un registro del estado actual del juego para cada pareja de jugadores.
-  Gestionar la lógica para las rondas de juego y el seguimiento de las selecciones de slots.
-  Validar las acciones del jugador para evitar trampas o errores.
-  Comunicación:
-  
-  Manejar las solicitudes y respuestas entre el cliente y el servidor.
-  Enviar actualizaciones de estado y cambios al cliente.
+## 🛡️ Selección de Héroes y Gameplay
+- **Cliente** 🖥️:
+  - Permite a los jugadores seleccionar sus héroes.
+  - Recoge y envía las selecciones de slots durante las rondas.
+  - Muestra la animación de recuento tras la selección de los jugadores.
+- **Servidor** ☁️:
+  - Recibe y valida las selecciones de héroes y slots.
+  - Calcula y envía el resultado final de cada ronda.
 
+## 🏁 Condiciones de Finalización
+- **Cliente** 🖥️:
+  - Muestra las animaciones de resultados (defensa/ataque) y de victoria/derrota.
+- **Servidor** ☁️:
+  - Lleva el recuento de las vidas y determina el final del juego.
+  - Envía el resultado final a los clientes.
 
-
-#CLIENTE
-
-  Interfaz de Usuario:
-  
-  Mostrar menús, lobbies, y pantallas de selección de héroes.
-  Capturar la entrada del jugador para la selección de slots y héroes.
-  Animaciones y Presentación:
-  
-  Ejecutar animaciones locales basadas en los resultados y comandos del servidor (por ejemplo, animaciones de ataque, defensa, y resultados).
-  Actualizar la interfaz de usuario con el estado del juego recibido del servidor.
-  Validación Local:
-  
-  Validar entradas del usuario antes de enviarlas al servidor (por ejemplo, verificar si un slot ya ha sido seleccionado).
-  Manejar la lógica de la interfaz de usuario que no afecta directamente al estado del juego (por ejemplo, menús de opciones, navegación).
-  Comunicaciones de Red:
-  
-  Enviar acciones del jugador y selecciones al servidor.
-  Recibir y procesar las actualizaciones del estado del juego y los resultados de las rondas del servidor.

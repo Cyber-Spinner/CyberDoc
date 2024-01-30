@@ -35,16 +35,17 @@
 7. [📝 Notas Finales](#-notas-finales)
 8. [🔍 Referencias](#-referencias)
 
+X. [🔍 Nomenclatura](#-nomenclatura)
 
-### 📚 Índice Esquemático
+### 📚 INFRAESTRUCTURA DE CODIGO
 
-A. [🔍 Interfaz de Juego](#-descripción)
-B. [🔍 Menu Principal](#-descripción)
+A. [🔍 Diagrama General](#-descripción)
+B. [🔍 Reparto de tareas](#-descripción)
 C. [🔍 Diagramas de Flujo](#-descripción)
 
 ### 📚 Guía De Estilo durante el desarrollo
 
-X. [🔍 Nomenclatura](#-nomenclatura)
+
 
 
 
@@ -368,7 +369,12 @@ Ejemplos:
 
 ![GDiag](./img/GDD/GDiag.png)
 
+
+REPARTO DE TAREAS CLIENTE/SERVIDOR
+
+
 #SERVIDOR
+
   Matchmaking y Lobby:
   
   Gestionar la cola de jugadores buscando partidas.
@@ -393,6 +399,7 @@ Ejemplos:
 
 
 #CLIENTE
+
   Interfaz de Usuario:
   
   Mostrar menús, lobbies, y pantallas de selección de héroes.

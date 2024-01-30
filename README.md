@@ -249,6 +249,7 @@ D. Símbolos de construccion de Firewall
 
 ### 🖼️ Arte:
 
+Definicion general:
 - Estilo cibernético y futurista, colores saturados y transparencias.
 - Arte 3D low-poly
 
@@ -364,3 +365,5 @@ Ejemplos:
   Ejemplos:
     - `MI_CONSTANTE`
     - `VELOCIDAD_MAXIMA`
+
+![GDiag](./img/GDD/GDiag.png)

@@ -5,7 +5,7 @@
 [![Género](https://img.shields.io/badge/G%C3%A9nero-Azar%20y%20Estrategia%20por%20turnos%2C%20Hacking%2C%20Ciberseguridad-green)](https://todo.cs.dev.spinner.com)
 
 <div align="center">
-    <img src="./img/GDD/maliciosa_logo.png" alt="CyberSpinner" width="600">
+    <img src="./img/GDD/csgdd.png" alt="CyberSpinner" width="600">
 </div>
 
 ###### Maliciosa Studio 2024

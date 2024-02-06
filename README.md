@@ -1,13 +1,14 @@
-# 🎮 CyberSpinner: Game Dev Document
+# 🎮 CyberSpinner: Game Dev Document by Maliciosa Studio 
+# Año Inicio de desarrollo - 2024
 
 [![Plataformas](https://img.shields.io/badge/Plataformas-PC-blue)](https://todo.cs.dev.spinner.com)
 [![Género](https://img.shields.io/badge/G%C3%A9nero-Azar%20y%20Estrategia%20por%20turnos%2C%20Hacking%2C%20Ciberseguridad-green)](https://todo.cs.dev.spinner.com)
 
 <div align="center">
-    <img src="./img/GDD/readme_banner.png" alt="CyberSpinner" width="600">
+    <img src="./img/GDD/maliciosa_logo" alt="CyberSpinner" width="600">
 </div>
 
-###### Generada por "DALL·E 2": No representa el estilo de arte del videojuego, pero si el sentimiento, entorno y paleta de color.
+###### Maliciosa Studio 2024
 
 ### 📚 Índice General
 
@@ -65,8 +66,8 @@
 
 - Cada jugador controla una "Estacion", compuesta por la representacion grafica de 2 ""Malware"" y un codigo central.
 - Existen distintos tipos ""Malware"" y el jugador debe elegir solo a 2 para cada batalla.
-- Cada tipo de servidor cuenta con una forma de comportarse en la batalla.
-- La seleccion del tipo de servidor es agnostica al oponente, y solo se revela una vez transcurre la seccion de "Eleccion de Servidor"
+- Cada tipo de malware cuenta con una forma de comportarse en la batalla.
+- La seleccion del tipo de malware es agnostica al oponente, y solo se revela una vez transcurre la seccion de "Eleccion de malware"
 - Los "Malware" de cada oponente se comportaran segun los valores obtenidos durante su Tirada de Codigo.
 
 
@@ -173,8 +174,8 @@ Un software que extorsiona a los oponentes y obtiene una vida a cambio de energi
 ### ⚔️ Combate (Aumento de Energia - Simbolos de Energia)
 
 - Los "Malware" pueden atacar a la Estacion de su oponente cuando su barra de energía está llena.
-- El volumen de las barras de energia, y su costo es variable y depende del tipo de servidor.
-- El valor del daño causado depende del nivel de actualizacion de servidor y su tipo.
+- El volumen de las barras de energia, y su costo es variable y depende del tipo de malware.
+- El valor del daño causado depende del nivel de actualizacion de malware y su tipo.
 - Un ataque puede encontrar resistencia si se encuentra con un Firewall enemigo.
 
 ### 🔥 Firewall de Defensa (Construccion de un firewall - Simbnolos de Defensa):
@@ -186,7 +187,7 @@ Un software que extorsiona a los oponentes y obtiene una vida a cambio de energi
 ### 🔥 Actualización de los "Malware" (Actualización de Software - Símbolos de Actualización):
 
 - Los jugadores pueden mejorar sus "Malware" utilizando símbolos específicos únicos obtenidos en la Tirada de Código Aleatorio.
-- Un grupo de simbolos rellena otra barra de energia, cuando esta esta completa el servidor se actualiza (evoluciona)
+- Un grupo de simbolos rellena otra barra de energia, cuando esta esta completa el malware se actualiza (evoluciona)
 - El sistema de mejoras es progresivo (3 mejoras) y permite a los jugadores personalizar su estrategia.
 
 ### 🔥 Símbolos del Codigo:
@@ -308,7 +309,7 @@ Estas elecciones se revelan al inicio de la partida.
 
 Mecánica del Código Aleatorio: Similar a la rueda de tragamonedas en "Wheels", los jugadores giran un código formado por símbolos para activar acciones. 
 
-El objetivo es agotar los puntos de vida del oponente. Cada servidor reacciona de manera diferente según los símbolos obtenidos.
+El objetivo es agotar los puntos de vida del oponente. Cada malware reacciona de manera diferente según los símbolos obtenidos.
 
 Energía y Acciones de "Malware": Los "Malware" actúan una vez acumulen suficiente energía, que se obtiene al hacer coincidir ciertos símbolos en el Código Aleatorio. 
 

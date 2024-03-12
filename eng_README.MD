@@ -1,5 +1,5 @@
 # 🎮 CyberSpinner: Game Dev Document by Maliciosa Studio 
-# Development Start Year - 2024
+#
 
 [![Platforms](https://img.shields.io/badge/Platforms-PC-blue)](https://todo.cs.dev.spinner.com)
 [![Genre](https://img.shields.io/badge/Genre-Turn-Based%20Strategy%20and%20Chance%2C%20Hacking%2C%20Cybersecurity-green)](https://todo.cs.dev.spinner.com)

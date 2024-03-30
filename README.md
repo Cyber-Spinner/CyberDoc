@@ -42,7 +42,7 @@
       - [🏁 Condiciones de Finalización](#-condiciones-de-finalización)
 10. [📚 Guía De Estilo durante el desarrollo](#-guía-de-estilo-durante-el-desarrollo)
 11. [🔍 Nomenclatura](#-nomenclatura)
-
+12. Posibles Ideas y Aportaciones de los seguidores
 ## 🔍 Descripción
 
 "CyberSpinner" es un juego de azar y estrategia por turnos, modo multijugador 1VS1, en el que dos jugadores asumen el papel de hackers adversarios que se enfrentan en el ciberespacio. La clave del juego es hacer girar un "Codigo Aleatorio formado por simbolos" para determinar las acciones disponibles en cada turno y elegir sabiamente cómo usar los recursos obtenidos para derrotar al oponente.
@@ -396,3 +396,7 @@ Ejemplos:
   - Lleva el recuento de las vidas y determina el final del juego.
   - Envía el resultado final a los clientes.
 
+
+12 .. Posibles Aportaciones e ideas de seguidores
+
+    -El jugador podria tener una habilidad especial para descifrar el reasutlado obtenedio en la tirada de codigo del jugador enemigo. -Quicongo
